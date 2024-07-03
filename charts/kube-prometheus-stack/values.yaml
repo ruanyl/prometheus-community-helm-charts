@@ -893,7 +893,7 @@ grafana:
       alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}, {"HTTP": 80}]'
       alb.ingress.kubernetes.io/target-type: ip
       alb.ingress.kubernetes.io/ssl-redirect: '443'
-      alb.ingress.kubernetes.io/security-groups: sg-056322466655f8089
+      alb.ingress.kubernetes.io/security-groups: sg-0f951c8cd29fa5b10
       alb.ingress.kubernetes.io/manage-backend-security-group-rules: 'true'
 
       # kubernetes.io/ingress.class: nginx
